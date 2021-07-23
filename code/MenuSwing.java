@@ -151,7 +151,7 @@ class BFrame extends JFrame {
 	split.resetToPreferredSizes();	
 
 	final JPanel gameSouthPanel = new JPanel( new BorderLayout());
-	final JPanel resourceBar = new JPanel();
+	final JPanel resourceBar = new JPanel( new GridBagLayout());
     final JLabel puLabel = new JLabel("39 (+29)"); 
 	puLabel.setIcon(ui.puIcon);
 	puLabel.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 10));
